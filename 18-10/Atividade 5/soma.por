@@ -1,6 +1,6 @@
 programa {
   funcao inicio() {
-    inteiro num1, num2, total
+    inteiro num1, num2, soma
 
     escreva("Digite o primeiro número: ")
     leia(num1)
@@ -8,8 +8,8 @@ programa {
     escreva("Digite o segundo número: ")
     leia(num2)
 
-    total = num1 + num2
+    soma = num1 + num2
 
-    escreva("O resultado da soma é: " + total)
+    escreva("O resultado da soma é: " + soma)
   }
 }
