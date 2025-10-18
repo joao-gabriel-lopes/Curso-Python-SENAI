@@ -4,5 +4,5 @@
 4 - Posicionar a escada para alcançar a lâmpada no teto;
 5 - Retirar a lâmpada do teto;
 6 - Guardar a lâmpada antiga;
-6 - Pegar a lâmpada nova em cima da mesa;
-7 - Instalar a lâmpada nova;
+7 - Pegar a lâmpada nova em cima da mesa;
+8 - Instalar a lâmpada nova;
