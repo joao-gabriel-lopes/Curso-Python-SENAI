@@ -1,5 +1,5 @@
-dia = input("Digite o dia da data: ")
-mes = input("Digite o mês da data: ")
-ano = input("Digite o ano da data: ")
+dia = input("Digite o dia do seu nascimento: ")
+mes = input("Digite o mês do seu nascimento: ")
+ano = input("Digite o ano do seu nascimento: ")
 
-print(f"Data: {dia}/{mes}/{ano}")
+print(f"Data de nascimento: {dia}/{mes}/{ano}")
