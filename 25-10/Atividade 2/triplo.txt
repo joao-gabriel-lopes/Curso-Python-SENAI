@@ -1,0 +1,13 @@
+programa {
+  funcao inicio() {
+    inteiro num1, triplo
+
+    escreva("Digite o primeiro número: ")
+    leia(num1)
+
+    triplo = num1 * 3
+
+    escreva("O triplo de ", num1, " é: ", triplo)
+
+  }
+}

@@ -1,0 +1,13 @@
+programa {
+  funcao inicio() {
+    real valor_produto, valor_final
+    inteiro aumento = 20
+
+    escreva("Digite o valor do produto: ")
+    leia(valor_produto)
+
+    valor_final = valor_produto + (valor_produto * aumento / 100)
+
+    escreva("O valor final é: ", valor_final)
+  }
+}
