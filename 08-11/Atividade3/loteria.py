@@ -8,17 +8,19 @@ def calcularReparticao(valorPremio, valorApostado1, valorApostado2, valorApostad
             premioApostador2 = (valorApostado2 / somaApostas) * valorPremio
             premioApostador3 = (valorApostado3 / somaApostas) * valorPremio
             
-            print(f"Jogador 1 ganhou: {premioApostador1:.2f}", f"Jogador 2 ganhou: {premioApostador2:.2f}", f"Jogador 3 ganhou: {premioApostador3:.2f}")
+            return f"Jogador 1 ganhou: {premioApostador1:.2f} \nJogador 2 ganhou: {premioApostador2:.2f} \nJogador 3 ganhou: {premioApostador3:.2f}"
             
         else:
-            print("Valores negativos não são válidos!")
+            return "Valores negativos não são válidos!"
     
     else:
-        print("Os valores apostados são maiores que o valor do prêmio!")
+        return "Os valores apostados são maiores que o valor do prêmio!"
 
 valorPremio = float(input("Digite o valor do prêmio: "))
 valorApostado1 = float(input("Digite o valor apostado pelo primeiro jogador: "))
 valorApostado2 = float(input("Digite o valor apostado pelo segundo jogador: "))
 valorApostado3 = float(input("Digite o valor apostado pelo terceiro jogador: "))
 
-calcularReparticao(valorPremio, valorApostado1, valorApostado2, valorApostado3)
+resultado = calcularReparticao(valorPremio, valorApostado1, valorApostado2, valorApostado3)
+
+print(resultado)
