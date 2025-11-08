@@ -7,7 +7,6 @@ def fahrenheitParaCelsius(fahrenheit):
     return resultado
 
 def paraQualEscalaConverter(escala):
-
     if(escala == "fahrenheit"):
         celsius = float(input("Digite os graus em Celsius: "))
         print(f"{celsius}°C são {celsiusParaFahrenheit(celsius)}°F")
