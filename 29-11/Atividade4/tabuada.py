@@ -1,7 +1,8 @@
 def CalcularTabuada():
-    valor = int(input("Digite um número para o cálculo da tabuada: "))
-
     for i in range(0, 11):
-        print(f"{valor} X {i} = {valor * i}")
+        print(f"Tabuada do {i}")
+        
+        for j in range(0, 11):
+            print(f"{i} X {j} = {i * j}")
 
 CalcularTabuada()
