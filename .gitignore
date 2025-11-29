@@ -1,2 +1,7 @@
-#auto-py-to-exe output
+#auto-py-to-exe
 output/
+
+#pyinstaller
+build/
+dist/
+*.spec
