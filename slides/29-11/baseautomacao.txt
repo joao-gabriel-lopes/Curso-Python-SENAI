@@ -1,0 +1,20 @@
+import pyautogui
+import time
+
+
+# pyautogui.press("Win")
+# time.sleep(1)
+pyautogui.write("https://www.sp.senai.br/")
+# pyautogui.press("Enter")
+
+# pyautogui.hotkey("ctrl", "t")
+# pyautogui.hotkey("win", "up")
+
+pyautogui.hotkey("win", "d")
+time.sleep(1)
+# pyautogui.click(1904,13)
+pyautogui.doubleClick(105,939)
+
+pyautogui.press("tab", presses= 5)
+
+pyautogui.write("Eduardo")
